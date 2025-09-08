@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { SafeAreaView } from 'react-native';
-import { ViroARSceneNavigator } from 'react-viro';
+import { ViroARSceneNavigator } from '@viro-community/react-viro';
 import ARScene from './src/ArScene';
 import OverlayControls from './src/OverlayControls';
 
@@ -17,3 +17,4 @@ export default function App() {
     </SafeAreaView>
   );
 }
+    
